@@ -1,0 +1,29 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _icons = _interopRequireDefault(require("url:../../img/icons.svg"));
+var _view = require("./view");
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
+// Parcel 1
+
+class SearchView extends _view.View {
+  _parentEl = document.querySelector('.search');
+  getQuery() {
+    const query = this._parentEl.querySelector('.search__field').value;
+    this._clearInput();
+    return query;
+  }
+  _clearInput() {
+    this._parentEl.querySelector('.search__field').value = '';
+  }
+  addHandlerSearch(handler) {
+    this._parentEl.addEventListener('submit', function (e) {
+      e.preventDefault();
+      handler();
+    });
+  }
+}
+var _default = exports.default = new SearchView();
