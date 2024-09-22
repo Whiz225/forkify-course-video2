@@ -1,5 +1,3 @@
-
-
 import * as modal from './modal.js';
 import recipeView from './views/recipeView.js';
 import searchView from './views/searchView.js';
@@ -14,7 +12,6 @@ import 'regenerator-runtime/runtime';
 import paginationView from './views/paginationView.js';
 import bookmarkView from './views/bookmarkView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
-
 
 if (module.hot) {
   module.hot.accept();
@@ -137,6 +134,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('WELCOME')
+  console.log('WELCOME');
 };
 init();

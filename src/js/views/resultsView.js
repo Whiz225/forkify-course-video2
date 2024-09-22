@@ -1,6 +1,5 @@
-
 import { View } from './view';
-import icons from 'url:../../img/icons.svg'; // Parcel 1
+// import icons from 'url:../../img/icons.svg'; // Parcel 1
 import previewView from './previewView';
 
 class ResultsView extends View {
@@ -16,4 +15,3 @@ class ResultsView extends View {
 }
 
 export default new ResultsView();
-

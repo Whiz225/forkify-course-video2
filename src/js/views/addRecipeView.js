@@ -1,5 +1,4 @@
-
-import icons from 'url:../../img/icons.svg'; // Parcel 1
+// import icons from 'url:../../img/icons.svg'; // Parcel 1
 import { View } from './view';
 
 class addRecipeView extends View {
@@ -41,4 +40,3 @@ class addRecipeView extends View {
 }
 
 export default new addRecipeView();
-

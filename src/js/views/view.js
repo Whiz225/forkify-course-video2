@@ -1,9 +1,7 @@
-
-import icons from 'url:../../img/icons.svg'; // Parcel 1
+import icons from 'url:../../img/icons.svg'; // Parcel 2
 
 export class View {
   _data;
-
 
   /**
    * Render the received object to the DOM
@@ -15,7 +13,6 @@ export class View {
    * @todo Finish implementation
    */
 
-  
   render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
@@ -98,3 +95,5 @@ export class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 }
+
+console.log('A')

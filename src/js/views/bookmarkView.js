@@ -1,5 +1,4 @@
-
-import icons from 'url:../../img/icons.svg'; // Parcel 1
+// import icons from 'url:../../img/icons.svg'; // Parcel 1
 import { View } from './view';
 import previewView from './previewView';
 
@@ -19,4 +18,3 @@ class BookmarkView extends View {
   }
 }
 export default new BookmarkView();
-

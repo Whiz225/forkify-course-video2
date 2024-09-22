@@ -1,5 +1,4 @@
-
-import icons from 'url:../../img/icons.svg'; // Parcel 1
+// import icons from 'url:../../img/icons.svg'; // Parcel 1
 import { View } from './view';
 
 class SearchView extends View {
@@ -24,4 +23,3 @@ class SearchView extends View {
 }
 
 export default new SearchView();
-

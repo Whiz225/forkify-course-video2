@@ -1,4 +1,3 @@
-
 import icons from 'url:../../img/icons.svg'; // Parcel 1
 import { Fraction } from 'fractional';
 import { View } from './view';
@@ -139,4 +138,3 @@ class RecipeView extends View {
 }
 
 export default new RecipeView();
-
